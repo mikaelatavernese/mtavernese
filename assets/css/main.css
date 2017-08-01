@@ -2987,6 +2987,11 @@
 		opacity: 1;
 	}
 
+.logo img {
+    height: 4em;
+    margin-bottom: 1em;
+}
+
 /* Footer */
 
 	#footer {
