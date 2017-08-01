@@ -2707,11 +2707,6 @@
 		padding: 2em 0 1em 0 ;
 	}
 
-		.main.first {
-		padding: 6em 0 1em 0 ;
-	}
-
-
 		.main.style1 {
 			background: #fff;
 		}
@@ -2807,7 +2802,7 @@
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		padding: 9em /*3em 9em 3em */;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -2817,6 +2812,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		margin-bottom: 2em;
 	}
 
 		#header a {
@@ -3122,7 +3118,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+				padding: 6em /*3em 6em 3em */;
 			}
 
 	}
@@ -3166,7 +3162,7 @@
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
+				padding: 5em 3em 5em 3em ;
 				background-attachment: scroll;
 			}
 
@@ -3189,6 +3185,8 @@
 
 		/* List */
 
+	
+
 			ul.major-icons li {
 				padding: 2em;
 			}
@@ -3204,6 +3202,7 @@
 			.main {
 				padding: 5em 3em 3em 3em ;
 			}
+
 
 		/* Header */
 
